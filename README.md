@@ -1,7 +1,5 @@
-
-
-<h2>Problema: Loja OOP</h2> 
-<h3>Descrição do Problema</h3>
+<h1>Problema: Loja OOP</h1> 
+<h2>Descrição do Problema</h2>
 <p>Você foi contratado para gerenciar o estoque de uma loja de importados e temos algumas tarefas para você. Crie classes que representem produtos, com métodos para calcular o preço total com base na quantidade comprada. Utilize estruturas de repetição para processar diferentes itens no carrinho de compras. Os produtos devem ser restaurados de um Banco de Dados utilizando as ferramentas disponíveis.</p>
 
 <strong>Banco de Dados:</strong></br>
@@ -31,7 +29,7 @@
 </ul>
 <li>Apagar um item do estoque.</li>
 
-
+</br>
 
 <strong>API</strong>:</br>
 <p>Considerando o modelo de banco de dados que foi criado anteriormente, implemente uma API usando o ASP.NET Core que cumpra os seguintes requisitos:</p>
