@@ -2,10 +2,39 @@
 
 <h2>Problema: Loja OOP</h2> 
 <h3>Descrição do Problema</h3>
-<p>Considere um sistema de gestão de vendas em uma loja, onde há diferentes tipos de produtos. Crie classes que representem produtos, com métodos para calcular o preço total com base na quantidade comprada. Utilize estruturas de repetição para processar diferentes itens no carrinho de compras. Os produtos devem ser restaurados de um Banco de Dados utilizando as ferramentas disponíveis.</p>
+<p>Você foi contratado para gerenciar o estoque de uma loja de importados e temos algumas tarefas para você. Crie classes que representem produtos, com métodos para calcular o preço total com base na quantidade comprada. Utilize estruturas de repetição para processar diferentes itens no carrinho de compras. Os produtos devem ser restaurados de um Banco de Dados utilizando as ferramentas disponíveis.</p>
+
+<strong>Banco de Dados:</strong></br>
+<ul>Quanto ao banco de dados, você deverá criar scripts em SQL que cumprem as seguintes tarefas:</ul>
+<li>Criar as seguintes tabelas e suas respectivas colunas</li>
+  <ul>
+    <li>Endereço (identificador do endereço, rua, número, complemento, bairro, cidade, estado e país)</li>
+    <li>Usuários (Identificador do usuário, nome e endereço)</li>
+    <li>Detalhes de pedidos (identificador do pedido, identificador do usuário que fez a compra, id do item pedido, quantidade, data e horário do pedido)</li>
+    <li>Fornecedor (identificador do fornecedor, nome, endereço e quantidade de compras efetuadas com o vendedor)</li>
+    <li>Estoque (identificador do item, nome do produto, quantidade de produtos, valor pelo qual foi comprado o item, valor pelo qual será vendido, valor total do estoque, fornecedor e número de vendas do item)</li>
+    <li>Pedidos (identificador do pedido, identificador do usuário que fez a compra, valor total da compra e endereço de entrega)</li>
+  </ul>
+<li>Popular o banco com as seguintes entidades</li>
+<ul>
+  <li>Dois usuários</li>
+  <li>Dois Fornecedores</li>
+  <li>Cinco itens no estoque</li>
+  <li>Três pedidos de compras</li>
+  <li>Um endereço para cada usuário e fornecedor</li>
+</ul>
+<li>Selecionar os seguintes dados:</li>
+<ul>
+  <li>Nome de um fornecedor, país e quantidade de compras feitas no fornecedor</li>
+  <li>As duas últimas compras feitas no sistema e de qual fornecedor elas vieram</li>
+  <li>O nome de um usuário e seu endereço completo</li>
+</ul>
+<li>Apagar um item do estoque.</li>
 
 
-<strong>Caso de Uso</strong>:</br>
+
+<strong>API</strong>:</br>
+<p>A API deve ser implementada com o ASP.NET Core</p>
 <ul>
 <li>Criar Produto: O sistema deve permitir ao usuário criar um novo produto, fornecendo detalhes como nome, preço unitário e quantidade em estoque.
 <li>Visualizar Produto: O sistema deve permitir ao usuário visualizar os detalhes de um produto existente.
